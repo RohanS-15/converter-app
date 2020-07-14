@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <link rel="stylesheet" type="text/css" href="circle_calculator.css" />
+	<script src = "circle_calculator.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Calculator</title>
+</head>
+
+
+<body>
+    <div id="header_container">
+        <h1>Circle Calculator</h1>
+
+    </div><br>
+
+    <div id="wrapper">
+
+        <div id="main_box">
+			<p id = "warning_label">Attention: please do not enter two values</p>
+            <div id="radius_div">
+                <input id="radius_input" class="inputs" placeholder="Radius" /><br>
+                <input type=button class="buttons" id="radius_find" value="Find radius" onclick = "radius_find_function.call()" />
+            </div>
+            <div id="diameter_div">
+                <input id="diameter_input" class="inputs" placeholder="Diameter" /><br>
+                <input id="diameter_find" class="buttons" type=button value="Find diameter" onclick = "diameter_find_function.call()"/><br>
+				
+            </div><br>
+			
+            <div id="circumfrence_div">
+                <input id="circumfrence_input" class="inputs" placeholder="Circumfrence" /><br>
+                <input id="circumfrence_find" class="buttons" type=button value="Find circumfrence" onclick = "circumfrence_find_function.call()"/>
+            </div>
+            <div id="area_div">
+                <input id="area_input" class="inputs" placeholder="Area" /><br>
+                <input id="area_find" class="buttons" type=button value="Find area" onclick = "area_find_function.call()"/>
+            </div>
+            
+                <p id="drop_label">Display result in:</p>
+				
+            
+            
+                <select id="drop_down">
+                    <option>Centimeters</option>
+                    <option>Inches</option>
+                    <option>Meters</option>
+                    <option>Feet</option>
+                    <option>Yards</option>
+                    <option>Miles</option>
+                    <option>Kilometers</option>
+                </select>
+				<input id = "reset_button" type = "button" value = "Reset" onclick = "window.location.reload();"/>
+				
+				
+				
+				<p id = "pi_label">	Pi = 3.14 </p>
+            
+
+        </div>
+
+        <div id="result_box">
+			<p id = "result_label">Result:</p>
+			<p id = "unit_label">_____</p>
+
+        </div>
+    </div>
+
+
+    <img id="circle_image" src="circle_image.png">
+
+
+</body>
+
+</html>

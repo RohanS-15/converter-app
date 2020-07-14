@@ -1,0 +1,92 @@
+html{
+	background-size:250% 250%;
+    background-image: linear-gradient(to left,rgb(24, 179, 176), rgb(233, 125, 36))
+}
+
+
+#converter_box {
+    display:inline-block;
+    border-radius:15px;
+    overflow:hidden;
+	
+    
+}
+
+#converter_box_container{
+    text-align:center;
+}   
+
+h1{
+    text-align:center;
+    font-size:43px;
+    text-decoration:underline;
+}
+
+#value_input{ 
+    width:150px;
+    height:25px;
+    text-indent:22px;
+    margin: 0px;
+}
+
+.to_from_label{
+    font-size:26px;
+    padding:0px;
+    margin:1px;
+    
+    
+}
+
+.to_from_drop_downs{
+    margin:7px 7px 7px 7px;
+    height:35px;
+    border-radius:15px;
+    width:125px;
+    text-indent:-0px;
+}
+
+#result_box_container{
+    text-align:center;
+}
+
+#result_box{
+    display:inline-block;
+    border-radius:15px;
+    margin:10px ;
+}
+
+.inline_button{
+    display:inline-block;
+    margin-left:5px;
+    width:65px;
+    height:25px;
+    border-radius:15px;
+    
+}
+
+#clear_button{
+    background-color: red;
+    margin-right:5px;
+    
+}
+
+#convert_button{
+    background-color:green;
+    
+}
+
+#result_label{
+    font-size:30px;
+    text-align:left;
+    padding:5px;
+    margin:-10px 0px;
+    
+}
+
+#operationLabel{
+    font-size:19px;
+    padding:5px;
+    text-align:left;
+    margin:-10;
+}
+

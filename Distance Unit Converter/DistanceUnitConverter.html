@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distance Unit Converter</title>
+    <script src="DistanceUnitConverter_script.js"></script>
+    <link rel="stylesheet" type="text/css" href="DistanceUnitConverter_styling.css">
+</head>
+
+<body>
+    <h1>Distance Unit Converter</h1>
+
+    <div id="converter_box_container">
+
+        <div id="converter_box" style="height:420px;border:2px solid #000; ">
+
+            <p class="to_from_label">From:</p>
+            <form id="from_drop_down_form">
+
+                <select class="to_from_drop_downs" id="from_drop_down">
+                    <option>Choose Unit</option>
+                    <option>Centimeters(cm)</option>
+                    <option>Inches( " )</option>
+                    <option>Meters(m)</option>
+                    <option>Feet( ' )</option>
+                
+                </select>
+
+            </form>
+
+            <p class="to_from_label">To:</p>
+            <form id="to_drop_down_form">
+                <select class="to_from_drop_downs" id="to_drop_down">
+                    <option>Choose Unit</option>
+                    <option>Centimeters(cm)</option>
+                    <option>Inches( " )</option>
+                    <option>Meters(m)</option>
+                    <option>Feet( ' )</option> 
+                    
+                </select>
+
+            </form>
+            <br>
+            <div id="buttons_and_input_div">
+                <input id="clear_button" class="inline_button" type="button" value="Clear" onclick="clear_function.call();" />
+                <input id="value_input" placeholder="Enter value here" />
+                <input id="convert_button" class="inline_button" type="button" value="Convert" onclick="convert();" />
+            </div>
+
+            <div id="result_box_container">
+                <br>
+                <div id="result_box" style=";height:160px;border:2px solid #000; ">
+                    <p id="operationLabel">Operation: </p>
+                    <p id="result_label">Conversion result:</p>
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
