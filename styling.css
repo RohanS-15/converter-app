@@ -44,7 +44,7 @@ body{
     border-radius: 5px;
     background-image: url("top_div_image.jpg");
 	background-color:white;
-	display:inline-block;
+	display:block;
 }
 
 #main_div{
